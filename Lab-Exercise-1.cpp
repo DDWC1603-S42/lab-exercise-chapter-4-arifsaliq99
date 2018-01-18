@@ -12,14 +12,13 @@ int main()
 	cout<<"------------------------------"<<endl;
 
 	cout<<"Input number: "<<endl;
+         cin>>no1;
+	cout<<"Input number: "<<endl;
+	cin>>no2;
+	
+	sum=no1+no2;
+	
+	cout<<sum;
 
-
-	while(no1>0)
-	{
-	r=no1%10;
-	no1=no1/10;
-	sum=sum+x;
-
-	}
-	//print the sum of the digits here.
-}
+	
+	
