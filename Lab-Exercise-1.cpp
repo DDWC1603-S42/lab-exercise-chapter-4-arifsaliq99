@@ -14,7 +14,7 @@ int main()
 	cout<<"Input number: "<<endl;
 
 
-	while(no2>0)
+	while(no1>0)
 	{
 	r=no1%10;
 	no1=no1/10;
