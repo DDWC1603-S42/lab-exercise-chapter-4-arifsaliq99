@@ -1,15 +1,22 @@
-//Display the number in reverse order
-//fix and complete the program below.
+#include<iostream>
+using namespace std;
+intmain(){
 
+ int t,r,sum,num;
 
-cout<<"user input a number: ";
+  
+  cout<<"user input a number: ";
+  cin>>num;
+ for(t=num;num!=0;num=num/10){
+ 
+  	sum=sum*10+r;
+  
+  }
+ cout<<"The number in reverse order: "<<r<<endl;
 
-for(t=num;num!=0;num=num/10)
-{
-	r=num % 10;
-	sum=sum*10+r;
-
+  
+  
 }
-cout<<"The number in reverse order: "<<endl;
 
-}
+
+
